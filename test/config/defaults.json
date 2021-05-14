@@ -1,0 +1,10 @@
+{
+  "AWSRegion": "us-west-2",
+  "Name": "Stack",
+  "College": "PCC",
+  "Environment": "sdlc",
+  "Version": "0.0.0",
+  "Build": "0",
+  "SsmParameterStore": "<ssm-parameter-store>",
+  "Parameters": {}
+}
