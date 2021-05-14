@@ -1,3 +1,4 @@
+import { ConfigParameters } from "./config-parameters";
 export interface Config {
     readonly AWSRegion: string;
     readonly Name: string;
@@ -6,7 +7,5 @@ export interface Config {
     readonly Version?: string;
     readonly Build?: string;
     readonly SsmParameterStore?: string;
-    readonly Parameters: BuildParameters;
-}
-export interface BuildParameters {
+    readonly Parameters: ConfigParameters;
 }
