@@ -231,16 +231,6 @@
         "signature": "0714e2046df66c0e93c3330d30dbc0565b3e8cd3ee302cf99e4ede6220e5fec8",
         "affectsGlobalScope": true
       },
-      "../../src/config-parameters.ts": {
-        "version": "9a27db2a28cd4cec9236522edbf2910bb5a27a21c3945992b6c3a90ecea24433",
-        "signature": "9a27db2a28cd4cec9236522edbf2910bb5a27a21c3945992b6c3a90ecea24433",
-        "affectsGlobalScope": false
-      },
-      "../../src/config.ts": {
-        "version": "f58158bc0ce4bf8867a82aa28e3f1127f3a958ef6a47e3c8bb319662b26c43e1",
-        "signature": "5da3136ca9b5ea4a9f39d1b6d3e08f6f6ddb055e1cf1f891d37f6d8d201a1a3b",
-        "affectsGlobalScope": false
-      },
       "../../node_modules/@aws-sdk/types/dist/types/abort.d.ts": {
         "version": "4f1034eac6404cb69bedb8bb04cf246871d1aaebbb99d5617be54f54323464c7",
         "signature": "4f1034eac6404cb69bedb8bb04cf246871d1aaebbb99d5617be54f54323464c7",
@@ -1701,9 +1691,19 @@
         "signature": "f41fcb0664a740edf13cb28e1168c4cabd05908e20db156bf464c000da89fb8b",
         "affectsGlobalScope": false
       },
+      "../../src/config-parameters.ts": {
+        "version": "9a27db2a28cd4cec9236522edbf2910bb5a27a21c3945992b6c3a90ecea24433",
+        "signature": "9a27db2a28cd4cec9236522edbf2910bb5a27a21c3945992b6c3a90ecea24433",
+        "affectsGlobalScope": false
+      },
+      "../../src/config.ts": {
+        "version": "f58158bc0ce4bf8867a82aa28e3f1127f3a958ef6a47e3c8bb319662b26c43e1",
+        "signature": "5da3136ca9b5ea4a9f39d1b6d3e08f6f6ddb055e1cf1f891d37f6d8d201a1a3b",
+        "affectsGlobalScope": false
+      },
       "../../src/config-loader.ts": {
-        "version": "1a7e68be9d1ef7e8b0724300ef9ff2e3f572636a0c84c657bdf102937def6da4",
-        "signature": "4e5b1f7db55c6ef2ad86a26c74003b8afa0db01839cb82bfe76999e21e151b96",
+        "version": "9457ce9e2ba1186e5bb17626ad2ebc425343253b492375d7d87edaf597fb8b40",
+        "signature": "c7e767003585cbb5a27a50b35b9c3c241ec787d351a643380e1dcb6d24eef630",
         "affectsGlobalScope": false
       },
       "../../src/index.ts": {

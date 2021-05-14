@@ -2,10 +2,19 @@ import {ConfigLoader} from "../src/config-loader";
 import * as path from 'path';
 import {mockClient} from "aws-sdk-client-mock";
 import {GetParameterCommand, SSMClient} from "@aws-sdk/client-ssm";
+import {Config, ConfigParameters} from "../lib/types";
 
 const configDir = path.resolve(__dirname, 'config');
 const ssmMock = mockClient(SSMClient);
 const loader = new ConfigLoader(configDir);
+
+interface OtherConfig extends Config {
+    readonly Parameters: OtherParameters;
+}
+
+interface OtherParameters extends ConfigParameters {
+    readonly otherParam: string;
+}
 
 describe('config loader', () => {
 
@@ -78,6 +87,24 @@ describe('config loader', () => {
         };
 
         expect(loader.load('shared')).resolves.toEqual(defaultEnv);
+    });
+
+    it('should use different config object', () => {
+        ssmMock.on(GetParameterCommand).resolves({});
+        const defaultEnv = {
+            AWSRegion: 'us-west-2',
+            Name: 'Stack',
+            College: 'PCC',
+            Environment: 'sdlc',
+            Version: '0.0.0',
+            Build: '0',
+            SsmParameterStore: '<ssm-parameter-store>',
+            Parameters: {
+                otherParam: 'foo'
+            }
+        };
+        const typedLoader = new ConfigLoader<OtherConfig>(configDir);
+        expect(typedLoader.load('other')).resolves.toEqual(defaultEnv);
     });
 });
 

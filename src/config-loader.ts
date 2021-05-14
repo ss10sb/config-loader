@@ -1,10 +1,10 @@
 import * as fs from 'fs';
 import * as path from "path";
 import {merge} from 'lodash';
-import {Config} from "./config";
 import {SSMClient, GetParameterResult, GetParameterCommand} from "@aws-sdk/client-ssm";
+import {Config} from "./config";
 
-export class ConfigLoader {
+export class ConfigLoader<T extends Config> {
     readonly configDir: string;
 
     constructor(configDir: string) {
@@ -26,15 +26,15 @@ export class ConfigLoader {
         return {};
     }
 
-    private getConfigFromFiles(env: string): Config {
+    private getConfigFromFiles(env: string): T {
         const defaultEnv = JSON.parse(fs.readFileSync(path.resolve(this.configDir, "defaults.json"), "utf8"));
         const overrideEnv = JSON.parse(fs.readFileSync(path.resolve(this.configDir, `${env}.json`), "utf8"));
-        return <Config>merge(defaultEnv, overrideEnv);
+        return <T>merge(defaultEnv, overrideEnv);
     }
 
-    public async load(env: string): Promise<Config> {
+    public async load(env: string): Promise<T> {
         const mergedEnv = this.getConfigFromFiles(env);
         const ssmEnv = await this.getSsmConfig(mergedEnv.AWSRegion, mergedEnv.SsmParameterStore);
-        return <Config>merge(mergedEnv, ssmEnv);
+        return <T>merge(mergedEnv, ssmEnv);
     }
 }
