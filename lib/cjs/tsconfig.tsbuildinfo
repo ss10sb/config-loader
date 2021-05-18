@@ -1697,8 +1697,8 @@
         "affectsGlobalScope": false
       },
       "../../src/config.ts": {
-        "version": "f58158bc0ce4bf8867a82aa28e3f1127f3a958ef6a47e3c8bb319662b26c43e1",
-        "signature": "5da3136ca9b5ea4a9f39d1b6d3e08f6f6ddb055e1cf1f891d37f6d8d201a1a3b",
+        "version": "17d2ae8876a9ebe7a2d0d75037e151b8f4586643b6c00b482f791ca7eb47f42c",
+        "signature": "c3e6063635cf00ac804a044bd7d97e675da55e5647e98f5b00f990d9e45f7b6a",
         "affectsGlobalScope": false
       },
       "../../src/config-loader.ts": {

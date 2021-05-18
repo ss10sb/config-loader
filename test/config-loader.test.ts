@@ -25,6 +25,7 @@ describe('config loader', () => {
             }
         });
         const defaultEnv = {
+            AWSAccountId: "100",
             AWSRegion: 'us-east-1',
             Name: 'Stack',
             College: 'PCC',
@@ -44,6 +45,7 @@ describe('config loader', () => {
     it('should use default config for sdlc', () => {
         ssmMock.on(GetParameterCommand).resolves({});
         const defaultEnv = {
+            AWSAccountId: "100",
             AWSRegion: 'us-west-2',
             Name: 'Stack',
             College: 'PCC',
@@ -60,6 +62,7 @@ describe('config loader', () => {
     it('should override default config for prod', () => {
         ssmMock.on(GetParameterCommand).resolves({});
         const defaultEnv = {
+            AWSAccountId: "200",
             AWSRegion: 'us-west-2',
             Name: 'Stack',
             College: 'PCC',
@@ -76,6 +79,7 @@ describe('config loader', () => {
     it('should override default config for shared', () => {
         ssmMock.on(GetParameterCommand).resolves({});
         const defaultEnv = {
+            AWSAccountId: "300",
             AWSRegion: 'us-west-2',
             Name: 'Stack',
             College: 'PCC',
@@ -92,6 +96,7 @@ describe('config loader', () => {
     it('should use different config object', () => {
         ssmMock.on(GetParameterCommand).resolves({});
         const defaultEnv = {
+            AWSAccountId: "100",
             AWSRegion: 'us-west-2',
             Name: 'Stack',
             College: 'PCC',
