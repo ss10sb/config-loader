@@ -39,7 +39,7 @@ describe('config loader', () => {
     });
 
     it('should throw an error with non-existent env', () => {
-        expect(loader.load('none')).rejects.toThrow("ENOENT: no such file or directory, open '/app/test/config/none.json'");
+        expect(loader.load('none')).rejects.toThrow("Environment 'none' not found.");
     });
 
     it('should use default config for sdlc', () => {
@@ -110,6 +110,63 @@ describe('config loader', () => {
         };
         const typedLoader = new ConfigLoader<OtherConfig>(configDir);
         expect(typedLoader.load('other')).resolves.toEqual(defaultEnv);
+    });
+
+    it('should use js file when available', () => {
+        ssmMock.on(GetParameterCommand).resolves({});
+        const defaultEnv = {
+            AWSAccountId: "100",
+            AWSRegion: 'us-west-2',
+            Name: 'Stack',
+            College: 'PCC',
+            Environment: 'sdlc',
+            Version: '0.0.0',
+            Build: '0',
+            SsmParameterStore: '<ssm-parameter-store>',
+            Parameters: {
+                jsOnlyParam: 'foo'
+            }
+        };
+        const typedLoader = new ConfigLoader<OtherConfig>(configDir);
+        expect(typedLoader.load('jsonly')).resolves.toEqual(defaultEnv);
+    });
+
+    it('should use function from js file', () => {
+        ssmMock.on(GetParameterCommand).resolves({});
+        const defaultEnv = {
+            AWSAccountId: "100",
+            AWSRegion: 'us-west-2',
+            Name: 'Stack',
+            College: 'PCC',
+            Environment: 'sdlc',
+            Version: '0.0.0',
+            Build: '0',
+            SsmParameterStore: '<ssm-parameter-store>',
+            Parameters: {
+                testFuncParam: 'foobar'
+            }
+        };
+        const typedLoader = new ConfigLoader<OtherConfig>(configDir);
+        expect(typedLoader.load('testfunc')).resolves.toEqual(defaultEnv);
+    });
+
+    it('should use aws from js file', () => {
+        ssmMock.on(GetParameterCommand).resolves({});
+        const defaultEnv = {
+            AWSAccountId: "100",
+            AWSRegion: 'us-west-2',
+            Name: 'Stack',
+            College: 'PCC',
+            Environment: 'sdlc',
+            Version: '0.0.0',
+            Build: '0',
+            SsmParameterStore: '<ssm-parameter-store>',
+            Parameters: {
+                awsParam: 'Private'
+            }
+        };
+        const typedLoader = new ConfigLoader<OtherConfig>(configDir);
+        expect(typedLoader.load('aws')).resolves.toEqual(defaultEnv);
     });
 });
 

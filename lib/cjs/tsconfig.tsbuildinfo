@@ -187,8 +187,8 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@types/lodash/common/function.d.ts": {
-        "version": "c9f396e71966bd3a890d8a36a6a497dbf260e9b868158ea7824d4b5421210afe",
-        "signature": "c9f396e71966bd3a890d8a36a6a497dbf260e9b868158ea7824d4b5421210afe",
+        "version": "782abf371043fc65a987f835a3acfd80602a30c3e2122f6d5756a86bf6913352",
+        "signature": "782abf371043fc65a987f835a3acfd80602a30c3e2122f6d5756a86bf6913352",
         "affectsGlobalScope": false
       },
       "../../node_modules/@types/lodash/common/lang.d.ts": {
@@ -387,13 +387,18 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_0.d.ts": {
-        "version": "4696871ce014e6755261b753bef44449753863864366e84b238ed14190fe753e",
-        "signature": "4696871ce014e6755261b753bef44449753863864366e84b238ed14190fe753e",
+        "version": "1b2a59be3e48be723099dc12c13ad4abe10953d93000edb3356e8b67ae8c7dfc",
+        "signature": "1b2a59be3e48be723099dc12c13ad4abe10953d93000edb3356e8b67ae8c7dfc",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AddTagsToResourceCommand.d.ts": {
-        "version": "8883ea4ed03cc1b6d7709cce9b63a4658db39a5c93e10e6a98b308bf9f368fbf",
-        "signature": "8883ea4ed03cc1b6d7709cce9b63a4658db39a5c93e10e6a98b308bf9f368fbf",
+        "version": "a348a1adf083a3f571cd2b67aa582aff629205aca28caf217c40e8e2203a1838",
+        "signature": "a348a1adf083a3f571cd2b67aa582aff629205aca28caf217c40e8e2203a1838",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AssociateOpsItemRelatedItemCommand.d.ts": {
+        "version": "1213637819f93425e80b03785d8a2d9122edb63fdabd6061af280498d3dc378a",
+        "signature": "1213637819f93425e80b03785d8a2d9122edb63fdabd6061af280498d3dc378a",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelCommandCommand.d.ts": {
@@ -447,8 +452,8 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CreateResourceDataSyncCommand.d.ts": {
-        "version": "01da2cbe4dfdeb341675c00f15096d8fca96283d306a6cf3e995ab08d2a93f1b",
-        "signature": "01da2cbe4dfdeb341675c00f15096d8fca96283d306a6cf3e995ab08d2a93f1b",
+        "version": "dd990f216968272e13d31e59307f70af6cfab5ae78063a00adb6b9871fca6386",
+        "signature": "dd990f216968272e13d31e59307f70af6cfab5ae78063a00adb6b9871fca6386",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DeleteActivationCommand.d.ts": {
@@ -656,14 +661,14 @@
         "signature": "33b2e75644696c71ac55850be043f38798a19c4592e0ac268797ab95e57f6f5d",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchBaselinesCommand.d.ts": {
-        "version": "a4f6dbfbeb4fc334cad600619b6d2c22010b323df69bdf27399b0592ebc24550",
-        "signature": "a4f6dbfbeb4fc334cad600619b6d2c22010b323df69bdf27399b0592ebc24550",
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts": {
+        "version": "e2f5b0cce75d0a7dd8307583f2d9e387fe51ba0d7bdf07880e0e850ad405f45c",
+        "signature": "e2f5b0cce75d0a7dd8307583f2d9e387fe51ba0d7bdf07880e0e850ad405f45c",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts": {
-        "version": "ee6cea131040963fb197c91c5776c1037e97d050f43f1868053c6febf7dfb167",
-        "signature": "ee6cea131040963fb197c91c5776c1037e97d050f43f1868053c6febf7dfb167",
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchBaselinesCommand.d.ts": {
+        "version": "9cd51be31c20beb7a418735e400d5035dc0b64d2ae20811aada567d2592919e0",
+        "signature": "9cd51be31c20beb7a418735e400d5035dc0b64d2ae20811aada567d2592919e0",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchGroupStateCommand.d.ts": {
@@ -684,6 +689,11 @@
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribeSessionsCommand.d.ts": {
         "version": "05e76920afffc304e34005baa7dec0023dae8ea75fa9bf4d2621adf7b7abba13",
         "signature": "05e76920afffc304e34005baa7dec0023dae8ea75fa9bf4d2621adf7b7abba13",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DisassociateOpsItemRelatedItemCommand.d.ts": {
+        "version": "7e2851ffdb66e505f499acae37aa22c40cf2e3a3caec2848415a44d08002dcb3",
+        "signature": "7e2851ffdb66e505f499acae37aa22c40cf2e3a3caec2848415a44d08002dcb3",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetAutomationExecutionCommand.d.ts": {
@@ -722,8 +732,8 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts": {
-        "version": "af8c226655e816ac7e4e7d257cf9cbde2d7b114a91c42da53e8e622e14b6f112",
-        "signature": "af8c226655e816ac7e4e7d257cf9cbde2d7b114a91c42da53e8e622e14b6f112",
+        "version": "4f86079e2fb6f764c971cc8436e5d9d66ed349ddb8881247a8ff8c5976416bb4",
+        "signature": "4f86079e2fb6f764c971cc8436e5d9d66ed349ddb8881247a8ff8c5976416bb4",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetInventoryCommand.d.ts": {
@@ -807,8 +817,8 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetServiceSettingCommand.d.ts": {
-        "version": "54389526009f3434f22aa1fb3a02ef1351a4c0d4bcb35af4d703ec2eb40d15f7",
-        "signature": "54389526009f3434f22aa1fb3a02ef1351a4c0d4bcb35af4d703ec2eb40d15f7",
+        "version": "1ed083b847235125f55ace2b53d9b0da9b2338c07394d68e6141a7403a3dea15",
+        "signature": "1ed083b847235125f55ace2b53d9b0da9b2338c07394d68e6141a7403a3dea15",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/LabelParameterVersionCommand.d.ts": {
@@ -869,6 +879,11 @@
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemEventsCommand.d.ts": {
         "version": "6e1f5b77a3fd928d7f15ad7db360c1653041df69d0a0b5cb4401d83a0168d1ca",
         "signature": "6e1f5b77a3fd928d7f15ad7db360c1653041df69d0a0b5cb4401d83a0168d1ca",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts": {
+        "version": "5fb5eb680f991cf53c9fc15c35a564a94fade52c0f145d57b48a54c0d4a34a33",
+        "signature": "5fb5eb680f991cf53c9fc15c35a564a94fade52c0f145d57b48a54c0d4a34a33",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsMetadataCommand.d.ts": {
@@ -937,8 +952,8 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ResetServiceSettingCommand.d.ts": {
-        "version": "3cf84f2622749fc087787f13c950392814965039480ca5331ba82a7d0a10d093",
-        "signature": "3cf84f2622749fc087787f13c950392814965039480ca5331ba82a7d0a10d093",
+        "version": "f3aee88bb237f860f4ffe872056382cec3265f007109f2fcefa0994fe811c30d",
+        "signature": "f3aee88bb237f860f4ffe872056382cec3265f007109f2fcefa0994fe811c30d",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ResumeSessionCommand.d.ts": {
@@ -1022,33 +1037,33 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateMaintenanceWindowTargetCommand.d.ts": {
-        "version": "d1d2d43b4d17a6db03087477fff06a8795d92e6f40c0d77f6233c0ecaa3650ca",
-        "signature": "d1d2d43b4d17a6db03087477fff06a8795d92e6f40c0d77f6233c0ecaa3650ca",
+        "version": "8bdc562bb3fafbbc6c0a9fc2b7410ab6bbc1086d14f8ac508345d89a8ee336ec",
+        "signature": "8bdc562bb3fafbbc6c0a9fc2b7410ab6bbc1086d14f8ac508345d89a8ee336ec",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateMaintenanceWindowTaskCommand.d.ts": {
-        "version": "cb7258ee4cddc8f22b851fda8a1c28f95983bc367c6deda72fdf20d93dce0068",
-        "signature": "cb7258ee4cddc8f22b851fda8a1c28f95983bc367c6deda72fdf20d93dce0068",
+        "version": "27a8ec3cca26ba235d5f83565b456afd3871db7ec55b2ad7a9aafc2508fe40da",
+        "signature": "27a8ec3cca26ba235d5f83565b456afd3871db7ec55b2ad7a9aafc2508fe40da",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateManagedInstanceRoleCommand.d.ts": {
-        "version": "6ad7ce0cef995e05bb1e573fd71b12c02afe4531658faa452a6cc28d79021cab",
-        "signature": "6ad7ce0cef995e05bb1e573fd71b12c02afe4531658faa452a6cc28d79021cab",
+        "version": "0ede845574b4af051fdf45c36108ab7bb3859b93a0aa6309bc1305eec02b633c",
+        "signature": "0ede845574b4af051fdf45c36108ab7bb3859b93a0aa6309bc1305eec02b633c",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateOpsItemCommand.d.ts": {
-        "version": "1552dbdac4632e35dcb0ced83d40deb59797df3dd37afb89ce2794e9cfb969c7",
-        "signature": "1552dbdac4632e35dcb0ced83d40deb59797df3dd37afb89ce2794e9cfb969c7",
+        "version": "f24ed8cd52e9edaa8ea13b5191bdbaee6a4d52b4f552f06ba8dd5e8acdbd2c01",
+        "signature": "f24ed8cd52e9edaa8ea13b5191bdbaee6a4d52b4f552f06ba8dd5e8acdbd2c01",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateOpsMetadataCommand.d.ts": {
-        "version": "8165cdc99b715236a5baa2cfa161a3f955c5fa30b7073459d3a3aa46dd264505",
-        "signature": "8165cdc99b715236a5baa2cfa161a3f955c5fa30b7073459d3a3aa46dd264505",
+        "version": "8c52736469142b44ddb57ea6d288768c5f70285a0b5b3fad41331601da757eb9",
+        "signature": "8c52736469142b44ddb57ea6d288768c5f70285a0b5b3fad41331601da757eb9",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdatePatchBaselineCommand.d.ts": {
-        "version": "76903c5dbde9959d54c9b0ba5a7b089833703aec9ec467adea2a2a78d9996dbd",
-        "signature": "76903c5dbde9959d54c9b0ba5a7b089833703aec9ec467adea2a2a78d9996dbd",
+        "version": "11f39442dfa26244c49c309e3f9090640823e9fcae22e006b3eeca4dfb112b2a",
+        "signature": "11f39442dfa26244c49c309e3f9090640823e9fcae22e006b3eeca4dfb112b2a",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateResourceDataSyncCommand.d.ts": {
@@ -1057,18 +1072,18 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateServiceSettingCommand.d.ts": {
-        "version": "7fa13ec369599233e12c53344357806c3e2282ad7efbff40139ab53eb7ca09b0",
-        "signature": "7fa13ec369599233e12c53344357806c3e2282ad7efbff40139ab53eb7ca09b0",
+        "version": "1e6893e4934f30f77694f1638946a292a5839eff73c64c0b6409d5b315612c96",
+        "signature": "1e6893e4934f30f77694f1638946a292a5839eff73c64c0b6409d5b315612c96",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/config-resolver/dist/types/CustomEndpointsConfig.d.ts": {
-        "version": "859f37d2a003596e9cb349091ac179a94b35de1daf622aceae63a56a91cc8a72",
-        "signature": "859f37d2a003596e9cb349091ac179a94b35de1daf622aceae63a56a91cc8a72",
+        "version": "cfd2af227f5d3a2b1c1ddb5b49339510fac719ca24b5604bdfb9fe3864c065e6",
+        "signature": "cfd2af227f5d3a2b1c1ddb5b49339510fac719ca24b5604bdfb9fe3864c065e6",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/config-resolver/dist/types/EndpointsConfig.d.ts": {
-        "version": "d77a8559b8e1ddf55a7c1d7316a541e11bc4fdf6e757c0a8e533cf5e2117d411",
-        "signature": "d77a8559b8e1ddf55a7c1d7316a541e11bc4fdf6e757c0a8e533cf5e2117d411",
+        "version": "f493b452821381a5028927fc4640bf7175304918f6a3799f2db13598b13df797",
+        "signature": "f493b452821381a5028927fc4640bf7175304918f6a3799f2db13598b13df797",
         "affectsGlobalScope": false
       },
       "../../node_modules/@types/node/globals.d.ts": {
@@ -1317,8 +1332,8 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/config-resolver/dist/types/RegionConfig.d.ts": {
-        "version": "cf9c11d4715c052f821b4d8c2bc173360798da6b0f9efb612c3444e09d8f77a3",
-        "signature": "cf9c11d4715c052f821b4d8c2bc173360798da6b0f9efb612c3444e09d8f77a3",
+        "version": "e2e5fd74a4f92392576c02dd06d56b11583c51c12f9feedad73a2c7a403dd1a9",
+        "signature": "e2e5fd74a4f92392576c02dd06d56b11583c51c12f9feedad73a2c7a403dd1a9",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/config-resolver/dist/types/index.d.ts": {
@@ -1327,13 +1342,13 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/middleware-host-header/dist/types/index.d.ts": {
-        "version": "e2a00c799b70ace319d4602261447bd49fa1dab7b66a6e365fb3208d3720301f",
-        "signature": "e2a00c799b70ace319d4602261447bd49fa1dab7b66a6e365fb3208d3720301f",
+        "version": "81880ef56f25ebe21bc424e58bcf26115c88ade92622712255db482e83fb857b",
+        "signature": "81880ef56f25ebe21bc424e58bcf26115c88ade92622712255db482e83fb857b",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/middleware-retry/dist/types/configurations.d.ts": {
-        "version": "40ae6195ea63405ec5ba25e3d6592314f28c04c5631a621daec9ef4cace20a51",
-        "signature": "40ae6195ea63405ec5ba25e3d6592314f28c04c5631a621daec9ef4cace20a51",
+        "version": "a38a7c687aea03c3322639aac8d484e637852551ca2a58bd8a487bc0b87b636d",
+        "signature": "a38a7c687aea03c3322639aac8d484e637852551ca2a58bd8a487bc0b87b636d",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/middleware-retry/dist/types/retryMiddleware.d.ts": {
@@ -1367,8 +1382,8 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/middleware-signing/dist/types/configurations.d.ts": {
-        "version": "e93de676bbac1f5288f5ca94fc857c0fb022c0503f63218e3e54c264f957b73f",
-        "signature": "e93de676bbac1f5288f5ca94fc857c0fb022c0503f63218e3e54c264f957b73f",
+        "version": "22590f2b53a0f0e96389e4f09bd634a3f74cee04c98d4c6379574b82a1aeeecd",
+        "signature": "22590f2b53a0f0e96389e4f09bd634a3f74cee04c98d4c6379574b82a1aeeecd",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/middleware-signing/dist/types/middleware.d.ts": {
@@ -1382,8 +1397,8 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/middleware-user-agent/dist/types/configurations.d.ts": {
-        "version": "0d29cded6b490e3c5784e37c23c4f63e7a58fcff7c98f2a61f7d90f22ccc3c20",
-        "signature": "0d29cded6b490e3c5784e37c23c4f63e7a58fcff7c98f2a61f7d90f22ccc3c20",
+        "version": "9a4632f4a3f753b6b79f2b44d80d941309f9ddfff00768897a5e1c9d96cdfefe",
+        "signature": "9a4632f4a3f753b6b79f2b44d80d941309f9ddfff00768897a5e1c9d96cdfefe",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/middleware-user-agent/dist/types/user-agent-middleware.d.ts": {
@@ -1422,13 +1437,13 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts": {
-        "version": "7efcf3ac94b9a2419ff95f7af17eb0d068916959ff7d2f1c458a8106420fac4e",
-        "signature": "7efcf3ac94b9a2419ff95f7af17eb0d068916959ff7d2f1c458a8106420fac4e",
+        "version": "7ed357a5d3e7b172b4276b88dc6e7aae3218c71653cdaa438965e49a59190d5e",
+        "signature": "7ed357a5d3e7b172b4276b88dc6e7aae3218c71653cdaa438965e49a59190d5e",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/SSM.d.ts": {
-        "version": "dbad569db5a1f535bf39a5c1bc219325a8d0003df366bae80c0b88160379e8bd",
-        "signature": "dbad569db5a1f535bf39a5c1bc219325a8d0003df366bae80c0b88160379e8bd",
+        "version": "8dc6e066cda05ddde1956b98c95e4a7a4e1e8c5a66dd0f7800cae909e8fca1de",
+        "signature": "8dc6e066cda05ddde1956b98c95e4a7a4e1e8c5a66dd0f7800cae909e8fca1de",
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/Interfaces.d.ts": {
@@ -1666,6 +1681,11 @@
         "signature": "2aded8f81b4ab0739c35abef9c26cb325c0f7bd62174994bb9332c7593172698",
         "affectsGlobalScope": false
       },
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsItemRelatedItemsPaginator.d.ts": {
+        "version": "a923e4659378f883d1ed6436733decf3c355258abfc72ea03d0f913a184c8d4c",
+        "signature": "a923e4659378f883d1ed6436733decf3c355258abfc72ea03d0f913a184c8d4c",
+        "affectsGlobalScope": false
+      },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsMetadataPaginator.d.ts": {
         "version": "e553760eaa15f43358a8224a85d2e54ea5e0d46b661d4ca90dea3487b2352c1e",
         "signature": "e553760eaa15f43358a8224a85d2e54ea5e0d46b661d4ca90dea3487b2352c1e",
@@ -1687,8 +1707,8 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@aws-sdk/client-ssm/dist/types/index.d.ts": {
-        "version": "f41fcb0664a740edf13cb28e1168c4cabd05908e20db156bf464c000da89fb8b",
-        "signature": "f41fcb0664a740edf13cb28e1168c4cabd05908e20db156bf464c000da89fb8b",
+        "version": "bb9f21b5a6ea2e7abc12a09aac90532450ed52ca23ea17e75078e879a74436d3",
+        "signature": "bb9f21b5a6ea2e7abc12a09aac90532450ed52ca23ea17e75078e879a74436d3",
         "affectsGlobalScope": false
       },
       "../../src/config-parameters.ts": {
@@ -1702,8 +1722,8 @@
         "affectsGlobalScope": false
       },
       "../../src/config-loader.ts": {
-        "version": "9457ce9e2ba1186e5bb17626ad2ebc425343253b492375d7d87edaf597fb8b40",
-        "signature": "c7e767003585cbb5a27a50b35b9c3c241ec787d351a643380e1dcb6d24eef630",
+        "version": "7de86266f509eadc3892a7237cb5f5f483efff740c19e88c28fb68cad707b951",
+        "signature": "bacc37744c06d2eb8d4ee278bf364d882d31814f8649c0d5132d94648d0b7231",
         "affectsGlobalScope": false
       },
       "../../src/index.ts": {
@@ -1801,11 +1821,6 @@
         "signature": "bbc19287f48d4b3c753bd2c82dd9326af19cccbfa1506f859029dfcedc7c5522",
         "affectsGlobalScope": true
       },
-      "../../node_modules/@types/json-schema/index.d.ts": {
-        "version": "3a1e165b22a1cb8df82c44c9a09502fd2b33f160cd277de2cd3a055d8e5c6b27",
-        "signature": "3a1e165b22a1cb8df82c44c9a09502fd2b33f160cd277de2cd3a055d8e5c6b27",
-        "affectsGlobalScope": false
-      },
       "../../node_modules/@types/normalize-package-data/index.d.ts": {
         "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
         "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
@@ -1817,8 +1832,8 @@
         "affectsGlobalScope": false
       },
       "../../node_modules/@sinonjs/fake-timers/types/fake-timers-src.d.ts": {
-        "version": "b79a450a5233f10fa43da81c35a17f8eec71fea394d0ff91620819e0af513fe9",
-        "signature": "b79a450a5233f10fa43da81c35a17f8eec71fea394d0ff91620819e0af513fe9",
+        "version": "2ec90a33a922779199b6d91a27535b8829635a40dc87ee578ee0a15cf5c5c2ec",
+        "signature": "2ec90a33a922779199b6d91a27535b8829635a40dc87ee578ee0a15cf5c5c2ec",
         "affectsGlobalScope": false
       },
       "../../node_modules/@types/sinon/index.d.ts": {
@@ -1863,6 +1878,7 @@
       "../../node_modules/@aws-sdk/client-ssm/dist/types/SSM.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AddTagsToResourceCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AssociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelCommandCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelMaintenanceWindowExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CreateActivationCommand.d.ts",
@@ -1920,6 +1936,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchGroupsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchPropertiesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribeSessionsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DisassociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetAutomationExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCalendarStateCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCommandInvocationCommand.d.ts",
@@ -1956,6 +1973,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListDocumentsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListInventoryEntriesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemEventsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsMetadataCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceComplianceSummariesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceDataSyncCommand.d.ts",
@@ -1998,6 +2016,7 @@
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AddTagsToResourceCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AssociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelCommandCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelMaintenanceWindowExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CreateActivationCommand.d.ts",
@@ -2055,6 +2074,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchGroupsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchPropertiesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribeSessionsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DisassociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetAutomationExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCalendarStateCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCommandInvocationCommand.d.ts",
@@ -2091,6 +2111,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListDocumentsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListInventoryEntriesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemEventsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsMetadataCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceComplianceSummariesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceDataSyncCommand.d.ts",
@@ -2139,6 +2160,12 @@
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AddTagsToResourceCommand.d.ts": [
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_0.d.ts",
+        "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
+        "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
+      ],
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AssociateOpsItemRelatedItemCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_0.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
@@ -2458,7 +2485,7 @@
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchBaselinesCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_0.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
@@ -2481,6 +2508,12 @@
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribeSessionsCommand.d.ts": [
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
+        "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
+      ],
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DisassociateOpsItemRelatedItemCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
@@ -2704,6 +2737,12 @@
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts": [
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
+        "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
+      ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsMetadataCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
@@ -2886,37 +2925,36 @@
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateMaintenanceWindowTargetCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateMaintenanceWindowTaskCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateManagedInstanceRoleCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateOpsItemCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateOpsMetadataCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdatePatchBaselineCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
@@ -2937,6 +2975,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSM.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AddTagsToResourceCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AssociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelCommandCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelMaintenanceWindowExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CreateActivationCommand.d.ts",
@@ -2994,6 +3033,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchGroupsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchPropertiesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribeSessionsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DisassociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetAutomationExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCalendarStateCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCommandInvocationCommand.d.ts",
@@ -3030,6 +3070,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListDocumentsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListInventoryEntriesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemEventsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsMetadataCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceComplianceSummariesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceDataSyncCommand.d.ts",
@@ -3112,6 +3153,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListDocumentVersionsPaginator.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListDocumentsPaginator.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsItemEventsPaginator.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsItemRelatedItemsPaginator.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsMetadataPaginator.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListResourceComplianceSummariesPaginator.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListResourceDataSyncPaginator.d.ts",
@@ -3349,6 +3391,11 @@
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsItemEventsPaginator.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemEventsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/Interfaces.d.ts",
+        "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
+      ],
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsItemRelatedItemsPaginator.d.ts": [
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/Interfaces.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
@@ -3980,6 +4027,7 @@
       "../../node_modules/@aws-sdk/client-ssm/dist/types/SSM.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AddTagsToResourceCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AssociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelCommandCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelMaintenanceWindowExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CreateActivationCommand.d.ts",
@@ -4037,6 +4085,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchGroupsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchPropertiesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribeSessionsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DisassociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetAutomationExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCalendarStateCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCommandInvocationCommand.d.ts",
@@ -4073,6 +4122,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListDocumentsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListInventoryEntriesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemEventsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsMetadataCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceComplianceSummariesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceDataSyncCommand.d.ts",
@@ -4115,6 +4165,7 @@
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AddTagsToResourceCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AssociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelCommandCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelMaintenanceWindowExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CreateActivationCommand.d.ts",
@@ -4172,6 +4223,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchGroupsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchPropertiesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribeSessionsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DisassociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetAutomationExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCalendarStateCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCommandInvocationCommand.d.ts",
@@ -4208,6 +4260,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListDocumentsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListInventoryEntriesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemEventsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsMetadataCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceComplianceSummariesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceDataSyncCommand.d.ts",
@@ -4256,6 +4309,12 @@
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AddTagsToResourceCommand.d.ts": [
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_0.d.ts",
+        "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
+        "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
+      ],
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AssociateOpsItemRelatedItemCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_0.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
@@ -4575,7 +4634,7 @@
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchBaselinesCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_0.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
@@ -4598,6 +4657,12 @@
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribeSessionsCommand.d.ts": [
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
+        "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
+      ],
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DisassociateOpsItemRelatedItemCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
@@ -4821,6 +4886,12 @@
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts": [
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
+        "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
+      ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsMetadataCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
@@ -5003,37 +5074,36 @@
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateMaintenanceWindowTargetCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateMaintenanceWindowTaskCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateManagedInstanceRoleCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateOpsItemCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdateOpsMetadataCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/UpdatePatchBaselineCommand.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
-        "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_1.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/models/models_2.d.ts",
         "../../node_modules/@aws-sdk/smithy-client/dist/types/index.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
@@ -5054,6 +5124,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSM.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AddTagsToResourceCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AssociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelCommandCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelMaintenanceWindowExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CreateActivationCommand.d.ts",
@@ -5111,6 +5182,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchGroupsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchPropertiesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribeSessionsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DisassociateOpsItemRelatedItemCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetAutomationExecutionCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCalendarStateCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCommandInvocationCommand.d.ts",
@@ -5147,6 +5219,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListDocumentsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListInventoryEntriesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemEventsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsMetadataCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceComplianceSummariesCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceDataSyncCommand.d.ts",
@@ -5229,6 +5302,7 @@
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListDocumentVersionsPaginator.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListDocumentsPaginator.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsItemEventsPaginator.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsItemRelatedItemsPaginator.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsMetadataPaginator.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListResourceComplianceSummariesPaginator.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListResourceDataSyncPaginator.d.ts",
@@ -5466,6 +5540,11 @@
       ],
       "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsItemEventsPaginator.d.ts": [
         "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemEventsCommand.d.ts",
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/Interfaces.d.ts",
+        "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
+      ],
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsItemRelatedItemsPaginator.d.ts": [
+        "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts",
         "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/Interfaces.d.ts",
         "../../node_modules/@aws-sdk/types/dist/types/index.d.ts"
       ],
@@ -6087,6 +6166,7 @@
       "../../node_modules/@aws-sdk/client-ssm/dist/types/SSM.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/SSMClient.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AddTagsToResourceCommand.d.ts",
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/AssociateOpsItemRelatedItemCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelCommandCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CancelMaintenanceWindowExecutionCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/CreateActivationCommand.d.ts",
@@ -6144,6 +6224,7 @@
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchGroupsCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribePatchPropertiesCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DescribeSessionsCommand.d.ts",
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/DisassociateOpsItemRelatedItemCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetAutomationExecutionCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCalendarStateCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/GetCommandInvocationCommand.d.ts",
@@ -6180,6 +6261,7 @@
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListDocumentsCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListInventoryEntriesCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemEventsCommand.d.ts",
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsItemRelatedItemsCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListOpsMetadataCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceComplianceSummariesCommand.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/commands/ListResourceDataSyncCommand.d.ts",
@@ -6266,6 +6348,7 @@
       "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListDocumentVersionsPaginator.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListDocumentsPaginator.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsItemEventsPaginator.d.ts",
+      "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsItemRelatedItemsPaginator.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListOpsMetadataPaginator.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListResourceComplianceSummariesPaginator.d.ts",
       "../../node_modules/@aws-sdk/client-ssm/dist/types/pagination/ListResourceDataSyncPaginator.d.ts",
@@ -6345,7 +6428,6 @@
       "../../node_modules/@types/istanbul-lib-report/index.d.ts",
       "../../node_modules/@types/istanbul-reports/index.d.ts",
       "../../node_modules/@types/jest/index.d.ts",
-      "../../node_modules/@types/json-schema/index.d.ts",
       "../../node_modules/@types/lodash/common/array.d.ts",
       "../../node_modules/@types/lodash/common/collection.d.ts",
       "../../node_modules/@types/lodash/common/common.d.ts",

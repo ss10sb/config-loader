@@ -26,14 +26,27 @@ export class ConfigLoader<T extends Config> {
         return {};
     }
 
-    private getConfigFromFiles(env: string): T {
-        const defaultEnv = JSON.parse(fs.readFileSync(path.resolve(this.configDir, "defaults.json"), "utf8"));
-        const overrideEnv = JSON.parse(fs.readFileSync(path.resolve(this.configDir, `${env}.json`), "utf8"));
+    private async getConfigFromFiles(env: string): Promise<T> {
+        const defaultEnv = await this.getFromBase('defaults');
+        const overrideEnv = await this.getFromBase(env);
         return <T>merge(defaultEnv, overrideEnv);
     }
 
+    private async getFromBase(base: string): Promise<object> {
+        const jsFile = path.resolve(this.configDir, `${base}.js`);
+        if (fs.existsSync(jsFile)) {
+            const results = await import(jsFile);
+            return results.default ?? {};
+        }
+        const jsonFile = path.resolve(this.configDir, `${base}.json`);
+        if (fs.existsSync(jsonFile)) {
+            return JSON.parse(fs.readFileSync(jsonFile, 'utf8'));
+        }
+        throw Error(`Environment '${base}' not found.`);
+    }
+
     public async load(env: string): Promise<T> {
-        const mergedEnv = this.getConfigFromFiles(env);
+        const mergedEnv = await this.getConfigFromFiles(env);
         const ssmEnv = await this.getSsmConfig(mergedEnv.AWSRegion, mergedEnv.SsmParameterStore);
         return <T>merge(mergedEnv, ssmEnv);
     }

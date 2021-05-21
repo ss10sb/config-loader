@@ -4,5 +4,6 @@ export declare class ConfigLoader<T extends Config> {
     constructor(configDir: string);
     private getSsmConfig;
     private getConfigFromFiles;
+    private getFromBase;
     load(env: string): Promise<T>;
 }
